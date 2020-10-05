@@ -73,3 +73,17 @@ let truth = false; // boolean
 let groceries = ['apple', 'banana', 'oranges'] // array 
 let random; // undefined 
 let nothing = null; // value null
+
+// Strings in Javascript (common methods)
+let fruit = 'banana';
+let moreFruits = 'banana\nappple';
+
+console.log(fruit.length); // 6
+console.log(fruit.indexOf('nan')); // 2
+console.log(fruit.slice(2,5)); // [2, 5) nan
+console.log(fruit.replace('ban', '123')); // 123ana
+console.log(fruit.toUpperCase()); // BANANA
+console.log(fruit.toLowerCase()); // banana
+console.log(fruit[2]); // n
+console.log(fruit.split(',')); // split by a comma ["banana"]
+console.log(fruit.split('')); // split by a character ["b", "a", "n", "a", "n", "a"]
