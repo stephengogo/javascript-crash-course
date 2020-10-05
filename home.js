@@ -39,18 +39,28 @@ function fun() {
 // Name: "Stephen"
 // Return "Hello Stephen"
 
-function  greeting(name) {
-    
+function greeting(name) {
     var result = 'Hello ' + name;
     console.log(result);
 }
-var name = prompt('what is your name?');
+//var name = prompt('what is your name?');
 //greeting()
-
-
 
 function sumNumbers(num1, num2){
     var result = num1 + num2;
     console.log(result); 
 }
-sumNumbers('10', 10) // prints 1010
+//sumNumbers('10', 10) // prints 1010
+
+// While loops
+
+var num = 0;
+while (num < 100) {
+    num += 1;
+    console.log(num);
+}
+
+for ( let num = 0; num < 100; num++){
+    console.log(num);
+    
+}
